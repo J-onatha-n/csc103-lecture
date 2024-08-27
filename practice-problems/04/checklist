@@ -5,4 +5,5 @@
 [ ] prototypes.cpp
 [ ] linker/
 [ ] uncompilable/distributive.cpp
+[ ] uncompilable/dead-code.cpp
 [ ] uncompilable/if-else-reorder.cpp
