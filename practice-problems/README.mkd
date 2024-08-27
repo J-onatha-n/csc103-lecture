@@ -1,0 +1,53 @@
+Practice Problem Instructions
+=============================
+
+There will be a directory (folder) loosely corresponding to the topics of the
+week, numbered 1,2,3...and so on.  I may add more of these as the semester
+goes on.
+
+Generally speaking, each exercise is in a `.cpp` file.  There will be a
+comment at the top of each one labeled "TODO" with the question / specific
+instructions.  You should **edit these cpp files directly** when doing the
+exercises.  If you feel uneasy about losing the original content, don't worry
+-- you can use `git` to see the original after you've modified it.  Just ask
+me to show you how.
+
+
+Checklists
+----------
+
+In most directories, you will also find a `checklist` file.  These are to help
+you keep track of your progress, but they also give a recommended order in
+which to attempt the exercises (more difficult or more involved exercises
+appear near the end).
+
+
+Makefiles
+---------
+
+I will put a `Makefile` in each directory which will turn each `xyz.cpp` into
+a runnable program named `xyz`.  All you should have to do to compile is run
+`make` from within one of those directories.  The unmodified problem files
+should compile (the few exceptions are clearly noted).
+
+
+Grading
+-------
+
+Remember, it is **NOT** important (grade-wise) that your work on these
+practice problems is correct!  You only need to convince the TA that you have
+been working sincerely on solving them.  In fact, if you have correct answers
+to them *which you cannot explain*, you might not get credit at all.  As such,
+it will be important to document your attempts, one way or another (could be
+in the form of non-working programs and/or notes of your thought process, what
+you tried, what you expected to happen, what actually happened, etc.).
+
+
+Answer key / feedback
+---------------------
+
+I do not want to publish an answer key, as I fear that it might tempt people
+to try to memorize a bunch of solutions, or otherwise discourage them from
+doing the work themselves.  However, if you want to check your answers with
+me, I will be more than happy to give feedback.  Just ask me in office hours
+or on piazza.
