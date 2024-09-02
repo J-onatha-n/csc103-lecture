@@ -10,7 +10,8 @@ comment at the top of each one labeled "TODO" with the question / specific
 instructions.  You should **edit these cpp files directly** when doing the
 exercises.  If you feel uneasy about losing the original content, don't worry
 -- you can use `git` to see the original after you've modified it.  Just ask
-me to show you how.
+me to show you how.  Alternatively, just run `git diff` and it'll show you
+what files have been changed, and how.
 
 
 Checklists
@@ -19,7 +20,8 @@ Checklists
 In most directories, you will also find a `checklist` file.  These are to help
 you keep track of your progress, but they also give a recommended order in
 which to attempt the exercises (more difficult or more involved exercises
-appear near the end).
+appear near the end).  That said, don't be afraid to skip around if you are
+stuck on one of the questions.
 
 
 Makefiles
