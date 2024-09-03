@@ -2,6 +2,7 @@
 #include <iostream>
 using std::cout;
 
+//git test
 int main()
 {
 	/* print enthusiastic message: */
