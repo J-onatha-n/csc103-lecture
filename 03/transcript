@@ -1,0 +1,98 @@
+Script started on 2024-09-05 10:53:32-04:00 [TERM="xterm" TTY="/dev/pts/1" COLUMNS="103" LINES="26"]
+[?2004h+[[32m03[0m]$ [K+[[32m03[0m]$ [K+[[32m03[0m]$ g___   ++ datatypes.cpp 
+[?2004l[?2004h+[[32m03[0m]$ [Kls
+[?2004l[0m[04;32ma.out[0m  [1mdatatypes.cpp[0m  [0moutline[0m  [0mtranscript[0m
+[?2004h+[[32m03[0m]$ ./a.out 
+[?2004lhmmmmmmm...
+[?2004h+[[32m03[0m]$ g++ datatypes.cpp 
+[?2004l./[?2004h+[[32m03[0m]$ [K./a.out 
+[?2004lhmmmmmmm...
+0.3 == 0.3
+g   == 0.3
+[?2004h+[[32m03[0m]$ g++ datatypes.cpp 
+[?2004l[01m[Kdatatypes.cpp:14:36:[m[K [01;31m[Kerror: [m[Kstray '[01m[K\[m[K' in program
+   14 |                 cout << hmmmmmmm...[01;31m[K\[m[Kn;
+      |                                    [01;31m[K^[m[K
+[01m[Kdatatypes.cpp:[m[K In function '[01m[Kint[01;32m[K main[m[K()[m[K':
+[01m[Kdatatypes.cpp:14:25:[m[K [01;31m[Kerror: [m[K'[01m[Khmmmmmmm[m[K' was not declared in this scope
+   14 |                 cout << [01;31m[Khmmmmmmm[m[K...\n;
+      |                         [01;31m[K^~~~~~~~[m[K
+[?2004h+[[32m03[0m]$ [Kg++ datatypes.cpp 
+[?2004l./[?2004h+[[32m03[0m]$ [K./a.out 
+[?2004lhmmmmmmm...0.3 == 0.3g   == 0.3[?2004h+[[32m03[0m]$ 
+[?2004l[?2004h+[[32m03[0m]$ g__    + ++g d  datatypes.cpp 
+[?2004l[?2004h+[[32m03[0m]$ [K./a.out 
+[?2004lhmmmmmmm...
+0.3 = 0.29999999999999999
+g   = 0.30000000000000004
+[?2004h+[[32m03[0m]$ g++ datatypes.cpp 
+[?2004l[?2004h+[[32m03[0m]$ [K./a.out 
+[?2004lhmmmmmmm...
+0.3 = 0.300000
+g   = 0.300000
+[?2004h+[[32m03[0m]$ g++ datatypes.cpp 
+[?2004l[?2004h+[[32m03[0m]$ [K./a.out 
+[?2004lhmmmmmmm...
+0.3 = 0.29999999999999999
+g   = 0.30000000000000004
+[?2004h+[[32m03[0m]$ g++ datatypes.cpp q 
+[?2004l[01m[Kdatatypes.cpp:[m[K In function '[01m[Kint[01;32m[K main[m[K()[m[K':
+[01m[Kdatatypes.cpp:24:18:[m[K [01;31m[Kerror: [m[Kinvalid conversion from '[01m[Kconst char*[m[K' to '[01m[Kchar[m[K' [[01;31m[K-fpermissive[m[K]
+   24 |         char c = [01;31m[K"A"[m[K;
+      |                  [01;31m[K^~~[m[K
+      |                  [01;31m[K|[m[K
+      |                  [01;31m[Kconst char*[m[K
+[?2004h+[[32m03[0m]$ [Kg++ datatypes.cpp 
+[?2004l[?2004h+[[32m03[0m]$ [K./a.out 
+[?2004lhmmmmmmm...
+0.3 = 0.29999999999999999
+g   = 0.30000000000000004
+A
+[?2004h+[[32m03[0m]$ g++ datatypes.cpp 
+[?2004l[?2004h+[[32m03[0m]$ [K./a.out 
+[?2004lhmmmmmmm...
+0.3 = 0.29999999999999999
+g   = 0.30000000000000004
+
+[?2004h+[[32m03[0m]$ g++ ./  datatypes.cpp 
+[?2004l[?2004h+[[32m03[0m]$ [K./a.out 
+[?2004lhmmmmmmm...
+0.3 = 0.29999999999999999
+g   = 0.30000000000000004
+M
+[?2004h+[[32m03[0m]$ g++ datatypes.cpp 
+[?2004l[?2004h+[[32m03[0m]$ [K./a.out 
+[?2004lhmmmmmmm...
+0.3 = 0.29999999999999999
+g   = 0.30000000000000004
+A
+65
+[?2004h+[[32m03[0m]$ g++ datatypes.cpp 
+[?2004l[?2004h+[[32m03[0m]$ [K./a.out ::[[32m03[0m]$ ./a.out++[[32m03[0m]$ ./a.out 
+[?2004lhmmmmmmm...
+0.3 = 0.29999999999999999
+g   = 0.30000000000000004
+A
+65
+3
+[?2004h+[[32m03[0m]$ g date `      g++ dt atatypes.cpp 
+[?2004l./[?2004h+[[32m03[0m]$ [K./a.out 
+[?2004lhmmmmmmm...
+0.3 = 0.29999999999999999
+g   = 0.30000000000000004
+A
+65
+10/3 == 3
+[?2004h+[[32m03[0m]$ g++ datatypes.cpp 
+[?2004l./[?2004h+[[32m03[0m]$ [K./a.out 
+[?2004lhmmmmmmm...
+0.3 = 0.29999999999999999
+g   = 0.30000000000000004
+A
+65
+10/3 == 3
+10/3.0 == 3.33333
+[?2004h+[[32m03[0m]$ [K+[[32m03[0m]$ [K+[[32m03[0m]$ [?2004l
+exit
+
+Script done on 2024-09-05 12:22:23-04:00 [COMMAND_EXIT_CODE="0"]
