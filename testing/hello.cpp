@@ -2,10 +2,13 @@
 #include <iostream>
 using std::cout;
 
+//git test
 int main()
 {
 	/* print enthusiastic message: */
-	cout << "hello world!\n";
+
+	cout << "building on the command line!!\n";
+
 	return 0;
 }
 
