@@ -1,5 +1,5 @@
-[ ] average.cpp
-[ ] numeric-types.cpp
+[+] average.cpp
+[+] numeric-types.cpp
 [ ] sum.cpp
 [ ] even-odd-diff.cpp
 [ ] cancellation-violation.cpp

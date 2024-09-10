@@ -15,6 +15,12 @@ int main()
 	 *    with large integers.
 	 * 3. What type of result do you get when adding or multiplying
 	 *    floating point values with integers? */
+	
+	int integer = 3.4;
+	cout << integer << "\n"; //gets rid of the decimal and just outputs 3
+	float floatval = 2; 
+	cout << floatval << "\n"; //outputs 2 
+	cout << integer * floatval << "\n"; //ignored the decimals and produced an integer answer		   
 
 	return 0;
 }

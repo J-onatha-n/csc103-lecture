@@ -14,11 +14,11 @@ int main() {
 	cout << (n < 4) << endl;    //false
 	cout << (n = 0) << endl;    //here we state n = 0
 	cout << (n == 0) << endl;   //true
-	cout << (n > 0) << endl;	  //false
-	cout << (n && 4) << endl;   //not sure what this means n and 4?
-	cout << (n || 4) << endl;   //n or 4?
-	cout << (!n) << endl;       //not n ?
-    return 0;
+	cout << (n > 0) << endl;    //false
+	cout << (n && 4) << endl;   //n and 4? n==0 so it makes this false
+	cout << (n || 4) << endl;   //n or 4? 0 or 4, true>
+	cout << (!n) << endl;       //n == 0 so false, not n = 1 true
+	return 0;
 }
 
 
