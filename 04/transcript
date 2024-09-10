@@ -1,0 +1,26 @@
+Script started on 2024-09-10 10:58:21-04:00 [TERM="xterm" TTY="/dev/pts/2" COLUMNS="97" LINES="24"]
+[?2004h+[[32m04[0m]$ g++ booleans.cpp 
+[?2004l[?2004h+[[32m04[0m]$ [K
+[?2004l[?2004h+[[32m04[0m]$ ls
+[?2004l[0m[1;37mMakefile[0m  [04;32ma.out[0m  [1mbooleans.cpp[0m  [0moutline[0m  [0mtranscript[0m
+[?2004h+[[32m04[0m]$ ./a.out 
+[?2004l7 22
+they were equal
+[?2004h+[[32m04[0m]$ ./a.out 
+[?2004l0 22
+they were equal
+[?2004h+[[32m04[0m]$ ./a.out 
+[?2004l22 0
+they were NOT equal
+[?2004h+[[32m04[0m]$   [K+[[32m04[0m]$ [K+[[32m04[0m]$ vim [Kmake
+[?2004lg++ -O2 -Wall -Wvla -Wshadow -Wformat=2 -Wunused-parameter -DNDEBUG -o booleans booleans.cpp
+[01m[Kbooleans.cpp:[m[K In function '[01m[Kint[01;32m[K main[m[K()[m[K':
+[01m[Kbooleans.cpp:8:15:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around assignment used as truth value [[01;35m[K-Wparentheses[m[K]
+    8 |         if ([01;35m[Kx = y[m[K) {
+      |             [01;35m[K~~^~~[m[K
+[?2004h+[[32m04[0m]$ make
+[?2004lg++ -O2 -Wall -Wvla -Wshadow -Wformat=2 -Wunused-parameter -DNDEBUG -o booleans booleans.cpp
+[?2004h+[[32m04[0m]$ [?2004l
+exit
+
+Script done on 2024-09-10 11:52:03-04:00 [COMMAND_EXIT_CODE="0"]
