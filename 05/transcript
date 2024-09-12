@@ -1,0 +1,24 @@
+Script started on 2024-09-12 11:08:10-04:00 [TERM="xterm" TTY="/dev/pts/1" COLUMNS="97" LINES="24"]
+[?2004h+[[32m05[0m]$ [H[2J+[[32m05[0m]$ ls
+[?2004l[0m[1;37mMakefile[0m  [0moutline[0m  [1msum.cpp[0m  [0mtranscript[0m
+[?2004h+[[32m05[0m]$ make
+[?2004lg++ -O2 -Wall -Wvla -Wshadow -Wformat=2 -Wunused-parameter -DNDEBUG -o sum sum.cpp
+[?2004h+[[32m05[0m]$ echo {1..10}
+[?2004l1 2 3 4 5 6 7 8 9 10
+[?2004h+[[32m05[0m]$ [Kecho {1..10} | ./sum 
+[?2004lsum was 55
+[?2004h+[[32m05[0m]$ [K[K+[[32m05[0m]$ ./t sum 
+[?2004l12
+28
+asdfasdf
+sum was 40
+[?2004h+[[32m05[0m]$ ./sum 
+[?2004l12
+34
+sum was 46
+[?2004h+[[32m05[0m]$ echo {1..10| } | /.  ./sum 
+[?2004lsum was 55
+[?2004h+[[32m05[0m]$ [K[K+[[32m05[0m]$ exit
+[?2004lexit
+
+Script done on 2024-09-12 11:52:21-04:00 [COMMAND_EXIT_CODE="0"]
