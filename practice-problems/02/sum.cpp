@@ -7,6 +7,15 @@ using std::cout;
 int main()
 {
 	/* your answer goes here... */
+	int input;
+	int sum = 0;
+
+	while(cin >> input) {
+		sum += input;
+		}
+
+		cout << "Total sum " << sum << "\n";
+
 	return 0;
 }
 
