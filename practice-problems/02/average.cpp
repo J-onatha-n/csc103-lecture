@@ -10,7 +10,16 @@ using std::cout;
 int main()
 {
 	/* your answer goes here... */
-	return 0;
+	int a, b, c;	
+	cout << "Enter first number: \n";
+	cin >> a;	
+	cout << "Enter number: \n";
+	cin >> b;	
+	cout << "Enter third number: \n";
+	cin >> c;
+	cout << "The average is: " << (a+b+c)/3 << "\n";
+	
+	return 0;	
 }
 
 // vim:foldlevel=2

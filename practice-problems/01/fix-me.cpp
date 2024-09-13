@@ -11,12 +11,14 @@ int main()
 	int x;
 
 	while (true) {
-		cin >> x
+		cin >> x;
 		/* check if read into green was successful: */
-		if (!cin.good()) break; /* if read failed, exit the loop */
+		if (!cin.good()) {
+			break; /* if read failed, exit the loop */
+		}
 		if (x > m) m = x;
 	}
-	cout << 'largest value was ' << m << '\n';
+	cout << "largest value was " << m << '\n';
 	return 0;
 }
 
