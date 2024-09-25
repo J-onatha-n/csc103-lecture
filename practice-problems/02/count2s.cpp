@@ -12,6 +12,7 @@ using std::cout;
 int main()
 {
 	/* your answer goes here... */
+
 	return 0;
 }
 

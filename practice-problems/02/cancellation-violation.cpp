@@ -12,6 +12,8 @@ int main()
 	 * are stored in something like scientific notation -- there is a
 	 * fixed amount of space to write the exponent, and there is also
 	 * a fixed amount of space for the coefficient... */
+	double d,e,f;
+
 
 	return 0;
 }
