@@ -2,6 +2,12 @@
 [+] numeric-types.cpp
 [+] sum.cpp
 [+] even-odd-diff.cpp
+<<<<<<< HEAD
 [+] cancellation-violation.cpp
 [+] count2s.cpp
 [+] ascii.cpp
+=======
+[ ] cancellation-violation.cpp
+[ ] count2s.cpp
+[ ] ascii.cpp
+>>>>>>> b3854ba803efa898d6c77d1865b3c8e93b807c4f

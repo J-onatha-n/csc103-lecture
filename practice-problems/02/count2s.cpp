@@ -11,6 +11,7 @@ using std::cout;
 
 int main()
 {
+<<<<<<< HEAD
  int i;
  int n;
  cin >> n;
@@ -18,6 +19,10 @@ int main()
   n = n/2;
   }
   cout << i << "\n";
+=======
+	/* your answer goes here... */
+
+>>>>>>> b3854ba803efa898d6c77d1865b3c8e93b807c4f
 	return 0;
 }
 
