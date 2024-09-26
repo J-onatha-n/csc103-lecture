@@ -1,0 +1,76 @@
+Script started on 2024-09-19 10:54:09-04:00 [TERM="xterm" TTY="/dev/pts/3" COLUMNS="103" LINES="26"]
+[?2004h+[[32m07[0m]$ [K+[[32m07[0m]$ [K+[[32m07[0m]$ make
+[?2004lg++ -O2 -Wall -Wvla -Wshadow -Wformat=2 -Wunused-parameter -DNDEBUG -o functions functions.cpp
+[?2004h+[[32m07[0m]$ ./functions 
+[?2004l10
+[?2004h+[[32m07[0m]$ [Kmake
+[?2004lg++ -O2 -Wall -Wvla -Wshadow -Wformat=2 -Wunused-parameter -DNDEBUG -o functions functions.cpp
+./[?2004h+[[32m07[0m]$ ./functions 
+[?2004l10
+101
+[?2004h+[[32m07[0m]$ [Kmake
+[?2004lg++ -O2 -Wall -Wvla -Wshadow -Wformat=2 -Wunused-parameter -DNDEBUG -o functions functions.cpp
+[?2004h+[[32m07[0m]$ ./functions 
+[?2004l10
+101
+y == 5
+y == 2
+[?2004h+[[32m07[0m]$ [Kmake
+[?2004lg++ -O2 -Wall -Wvla -Wshadow -Wformat=2 -Wunused-parameter -DNDEBUG -o functions functions.cpp
+[?2004h+[[32m07[0m]$ ./functions 
+[?2004l10
+101
+from body of g(...):
+y == 5
+from main(...):
+y == 2
+[?2004h+[[32m07[0m]$ [Kmake
+[?2004lg++ -O2 -Wall -Wvla -Wshadow -Wformat=2 -Wunused-parameter -DNDEBUG -o functions functions.cpp
+[?2004h+[[32m07[0m]$ ./functions 
+[?2004l10
+101
+from body of g(...):
+y == 5
+from main(...):
+y == 2
+from body of g(...):
+y == 5
+from main(...):
+z == 2
+from body of h(...):
+w == 5
+from main(...):
+z == 5
+[?2004h+[[32m07[0m]$ [K[K+[[32m07[0m]$ [K+[[32m07[0m]$ [K+[[32m07[0m]$ [K+[[32m07[0m]$ [K+[[32m07[0m]$ [K+[[32m07[0m]$ [K+[[32m07[0m]$ [K+[[32m07[0m]$ make
+[?2004lg++ -O2 -Wall -Wvla -Wshadow -Wformat=2 -Wunused-parameter -DNDEBUG -o functions functions.cpp
+[01m[Kfunctions.cpp:[m[K In function '[01m[Kint[01;32m[K main[m[K()[m[K':
+[01m[Kfunctions.cpp:48:11:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type '[01m[Kint&[m[K' to an rvalue of type '[01m[Kint[m[K'
+   48 |         h([01;31m[K7[m[K);
+      |           [01;31m[K^[m[K
+[01m[Kfunctions.cpp:23:13:[m[K [01;36m[Knote: [m[K  initializing argument 1 of '[01m[Kvoid[01;32m[K h[m[K(int&)[m[K'
+   23 | void h([01;36m[Kint& w[m[K)
+      |        [01;36m[K~~~~~^[m[K
+make: *** [Makefile:21: functions] Error 1
+[?2004h+[[32m07[0m]$ [K+[[32m07[0m]$ make
+[?2004lg++ -O2 -Wall -Wvla -Wshadow -Wformat=2 -Wunused-parameter -DNDEBUG -o functions functions.cpp
+[?2004h+[[32m07[0m]$ ./functions 
+[?2004l10
+101
+from body of g(...):
+y == 5
+from main(...):
+y == 2
+from body of g(...):
+y == 5
+from main(...):
+z == 2
+from body of h(...):
+w == 5
+from main(...):
+z == 5
+from body of h(...):
+w == 10
+[?2004h+[[32m07[0m]$ [Kexit
+[?2004lexit
+
+Script done on 2024-09-19 11:51:00-04:00 [COMMAND_EXIT_CODE="0"]
