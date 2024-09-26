@@ -15,13 +15,27 @@ using std::cout;
 int main()
 {
 	int input = 0 ;
-	int diff = 0; 
+	int diff = 0;
+
+
 	/* your answer goes here... */
+
 	while(cin >> input) {
-		if(input%2==0) diff += input; 
-		else if(input%2 >= 1) diff -= input; 
+	/*
+		if(input%2==0) diff += input;
+		else if(input%2 >= 1) diff -= input;
+	*/
+		while(input%2==0) {
+			diff += input;
+			break;
+			}
+		while(input%2>=1) {
+			diff -= input;
+			break;
+			}
+
 	}
-	cout << "Difference of evens and odds : " << diff  << "\n";
+	cout << "Difference of evens and odds : " << diff << "\n";
 
 	return 0;
 }

@@ -13,6 +13,17 @@ int main()
 	 * fixed amount of space to write the exponent, and there is also
 	 * a fixed amount of space for the coefficient... */
 
+
+	double d, e, f;
+	f = 1;
+	d = 10.00000000000000000000000000000000000000000001;
+	e = 10.00000000000000000000000000000000000000000002;
+	cout << d+f << "\n" << e+f<< "\n";
+
+	if(d+f == e+f) cout << "cancellation law has been violated\n";
+
+
+
 	return 0;
 }
 

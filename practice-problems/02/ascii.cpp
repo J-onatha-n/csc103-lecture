@@ -18,6 +18,12 @@ using std::cout;
 
 int main()
 {
+
+ for(int i = 32; i<=126; i++){
+  cout << i;
+  cout << " " << static_cast<char>(i)<<"\n";
+
+  }
 	/* your answer goes here... */
 	return 0;
 }

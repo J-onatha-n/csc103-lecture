@@ -11,8 +11,15 @@ using std::cout;
 
 int main()
 {
-	/* your answer goes here... */
+ int i;
+ int n;
+ cin >> n;
+ for(i=0; n%2==0; i++){
+  n = n/2;
+  }
+  cout << i << "\n";
 	return 0;
 }
+
 
 // vim:foldlevel=2
