@@ -12,7 +12,34 @@ using std::cout;
 
 int main()
 {
-	/* your answer goes here... */
+ //odd numbers only
+ int input;
+ cin >> input;
+ int sum = 0;
+ for(int i = input; i>= 1; i--){
+  if(i%2 != 0){
+   sum += i * i;
+   if(i < 0) {
+   break;
+   }
+
+   }
+  }
+  cout << sum << "\n";
+
+ /*
+ int input;
+ cin >> input;
+ int sum = 0;
+ for(int i = input; i>=1; i--){
+  sum += i * i;
+  if(i < 0) {
+   break;
+   }
+  }
+  cout << sum << "\n"; */
+
+
 	return 0;
 }
 

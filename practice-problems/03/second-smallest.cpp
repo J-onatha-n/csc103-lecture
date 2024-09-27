@@ -23,8 +23,8 @@ int main()
    if(input > smallest && input < secondSmallest){
     secondSmallest = input;
     }
-  cout << "ss: " << secondSmallest << "\n";
-   cout << "smol: " << smallest << "\n";
+  cout << "second smallest: " << secondSmallest << "\n";
+   cout << "smallest: " << smallest << "\n";
   }
  return 0;
 }
