@@ -9,7 +9,19 @@ using std::cout;
 
 int main()
 {
-	/* your answer goes here... */
+ int x,y,i,smaller;
+ cin >> x;
+ cin >> y;
+ if(x<y){
+  smaller = x;
+  } else smaller = y;
+ for(i = smaller; i>=1; i--) {
+ // cout << x/y << "\n";
+  if(x%i==0 && y%i==0){
+  cout << i  << "\n";
+  break;
+  }
+  }
 	return 0;
 }
 

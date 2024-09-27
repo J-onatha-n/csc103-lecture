@@ -10,7 +10,7 @@ int main() {
 
 
 	while(cin >> input){
-		if (input < smallest) { //&& smallest <= secondSmallest) {
+		if (input < smallest) {
 
 			secondSmallest = smallest;
 			smallest = input;
