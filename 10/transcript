@@ -1,0 +1,99 @@
+Script started on 2024-10-01 10:55:41-04:00 [TERM="xterm" TTY="/dev/pts/4" COLUMNS="103" LINES="27"]
+[?2004h+[[32m10[0m]$ [K+[[32m10[0m]$ [K+[[32m10[0m]$ [K+[[32m10[0m]$ [K+[[32m10[0m]$ [K+[[32m10[0m]$ [K+[[32m10[0m]$ [K+[[32m10[0m]$ make
+[?2004lg++ -O2 -Wall -Wvla -Wshadow -Wformat=2 -Wunused-parameter -DNDEBUG -o vectors vectors.cpp
+[?2004h+[[32m10[0m]$ ./vectors 
+[?2004lV[0] = 234
+V[1] = 988
+V[2] = 0
+V[3] = 0
+V[4] = 0
+V[5] = 0
+V[6] = 1041
+V[7] = 0
+V[8] = 1563908950
+V[9] = 824196384
+[?2004h+[[32m10[0m]$ [Kmake
+[?2004lg++ -O2 -Wall -Wvla -Wshadow -Wformat=2 -Wunused-parameter -DNDEBUG -o vectors vectors.cpp
+.[?2004h+[[32m10[0m]$ ./vectors 
+[?2004lV[0] = 234
+V[1] = 988
+V[2] = 0
+V[3] = 0
+V[4] = 0
+V[5] = 0
+V[6] = 1041
+V[7] = 0
+V[8] = 1563908950
+V[9] = 824196384
+Segmentation fault
+[?2004h+[[32m10[0m]$ [Kmake
+[?2004lg++ -O2 -Wall -Wvla -Wshadow -Wformat=2 -Wunused-parameter -DNDEBUG -o vectors vectors.cpp
+[?2004h+[[32m10[0m]$ ./vectors 
+[?2004lV[0] = 234
+V[1] = 988
+V[2] = 0
+V[3] = 0
+V[4] = 0
+V[5] = 0
+V[6] = 1041
+V[7] = 0
+V[8] = 1563908950
+V[9] = 824196384
+0
+[?2004h+[[32m10[0m]$ [Kmake
+[?2004lg++ -O2 -Wall -Wvla -Wshadow -Wformat=2 -Wunused-parameter -DNDEBUG -o vectors vectors.cpp
+[?2004h+[[32m10[0m]$ ./vectors 
+[?2004lV[0] = 234
+V[1] = 988
+/usr/include/c++/13.2/debug/vector:442:
+In function:
+    std::debug::vector<_Tp, _Allocator>::reference std::debug::vector<_Tp, 
+    _Allocator>::operator[](size_type) [with _Tp = int; _Allocator = 
+    std::allocator<int>; reference = int&; size_type = long unsigned int]
+
+Error: attempt to subscript container with out-of-bounds index 2, but 
+container only holds 2 elements.
+
+Objects involved in the operation:
+    sequence "this" @ 0x7ffc4ff01090 {
+      type = std::debug::vector<int, std::allocator<int> >;
+    }
+Aborted
+[?2004h+[[32m10[0m]$ [Kmake
+[?2004lg++ -O2 -Wall -Wvla -Wshadow -Wformat=2 -Wunused-parameter -DNDEBUG -o vectors vectors.cpp
+./	[?2004h+[[32m10[0m]$ ./vectors 
+[?2004lglibc vector debug stuff is enabled!
+V[0] = 234
+V[1] = 988
+/usr/include/c++/13.2/debug/vector:442:
+In function:
+    std::debug::vector<_Tp, _Allocator>::reference std::debug::vector<_Tp, 
+    _Allocator>::operator[](size_type) [with _Tp = int; _Allocator = 
+    std::allocator<int>; reference = int&; size_type = long unsigned int]
+
+Error: attempt to subscript container with out-of-bounds index 2, but 
+container only holds 2 elements.
+
+Objects involved in the operation:
+    sequence "this" @ 0x7ffd831e9110 {
+      type = std::debug::vector<int, std::allocator<int> >;
+    }
+Aborted
+[?2004h+[[32m10[0m]$ [Kmake
+[?2004lg++ -O2 -Wall -Wvla -Wshadow -Wformat=2 -Wunused-parameter -DNDEBUG -o vectors vectors.cpp
+[?2004h+[[32m10[0m]$ ./vectors 
+[?2004lV[0] = 234
+V[1] = 988
+V[2] = 0
+V[3] = 0
+V[4] = 0
+V[5] = 0
+V[6] = 1041
+V[7] = 0
+V[8] = 1563908950
+V[9] = 824196384
+0
+[?2004h+[[32m10[0m]$ [K[K+[[32m10[0m]$ [K+[[32m10[0m]$ exit
+[?2004lexit
+
+Script done on 2024-10-01 11:56:30-04:00 [COMMAND_EXIT_CODE="0"]
