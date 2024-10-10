@@ -16,6 +16,10 @@ if (b) {
 	X;
 }
 
+while(b) {
+	X;
+	break;
+}
 /* 2. */
 
 for (X; b; Y) {

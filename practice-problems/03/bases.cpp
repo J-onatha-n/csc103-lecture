@@ -8,10 +8,23 @@
 #include <iostream>
 using std::cin;
 using std::cout;
-
+//gives an alias to int, so Z just means int in this case
+typedef int Z;
 int main()
 {
-	/* your answer goes here... */
+	Z n,b;
+	cin >> b;
+	while(b >= 10) {
+		cout << "b must be smaller than 10\n";
+		cin >> b;
+		}
+	cin >> n;
+	while(n>0){
+		int remainder = n%b;
+		n = n/b;
+		cout << remainder;
+	}
+	cout << "\n";
 	return 0;
 }
 
