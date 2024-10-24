@@ -1,0 +1,55 @@
+Script started on 2024-10-24 11:02:20-04:00 [TERM="xterm" TTY="/dev/pts/4" COLUMNS="97" LINES="24"]
+[?2004h+[[32m14[0m]$ make
+[?2004lg++ -O2 -Wall -Wvla -Wshadow -Wformat=2 -Wunused-parameter -DNDEBUG -o strings strings.cpp
+[?2004h+[[32m14[0m]$ ./strings 
+[?2004lhello class.
+2
+18446744073709551615
+[?2004h+[[32m14[0m]$ [Kmake
+[?2004lg++ -O2 -Wall -Wvla -Wshadow -Wformat=2 -Wunused-parameter -DNDEBUG -o strings strings.cpp
+[?2004h+[[32m14[0m]$ ./strings 
+[?2004lhello class.
+2
+18446744073709551615
+found ll at index 2 in string hello
+[?2004h+[[32m14[0m]$ [Kmake
+[?2004lg++ -O2 -Wall -Wvla -Wshadow -Wformat=2 -Wunused-parameter -DNDEBUG -o strings strings.cpp
+[?2004h+[[32m14[0m]$ ./strings 
+[?2004l^[[Ahello class.
+2
+18446744073709551615
+found ll at index 2 in string hello
+l l not found in hello
+[?2004h+[[32m14[0m]$ [Kwget -q -O - https://www.google.com/ --header 'Host: www.youtube.com' | grep -o '<title>.*<</title>'[A:
+</title>[A+[[32m14[0m]$ [K
+[K[A+[[32m14[0m]$ [K+[[32m14[0m]$ [K+[[32m14[0m]$ [K+[[32m14[0m]$ [K+[[32m14[0m]$ make
+[?2004lg++ -O2 -Wall -Wvla -Wshadow -Wformat=2 -Wunused-parameter -DNDEBUG -o find find.cpp
+[01m[Kfind.cpp:[m[K In function '[01m[Ksize_t[01;32m[K find[m[K(const std::string&, const std::string&)[m[K':
+[01m[Kfind.cpp:15:17:[m[K [01;35m[Kwarning: [m[Kthis '[01m[Kfor[m[K' clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+   15 |                 [01;35m[Kfor[m[K (j = 0; (j < n2) && (s1[i+j] == s2[j]); j++);
+      |                 [01;35m[K^~~[m[K
+[01m[Kfind.cpp:26:25:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the '[01m[Kfor[m[K'
+   26 |                         [01;36m[Kif[m[K (j == n2) return i;
+      |                         [01;36m[K^~[m[K
+[?2004h+[[32m14[0m]$ make
+[?2004lg++ -O2 -Wall -Wvla -Wshadow -Wformat=2 -Wunused-parameter -DNDEBUG -o find find.cpp
+[?2004h+[[32m14[0m]$ ./find 
+[?2004lhello
+match found at index 0
+llo
+match found at index 2
+asdf
+not found
+lolol
+not found
+asdfasdfasdfasdf
+Segmentation fault
+[?2004h+[[32m14[0m]$ ./find 
+[?2004lasdfasdfasdf
+not found
+./  alalalallalaal
+match found at index 32
+[?2004h+[[32m14[0m]$ exit
+[?2004lexit
+
+Script done on 2024-10-24 11:51:42-04:00 [COMMAND_EXIT_CODE="0"]
