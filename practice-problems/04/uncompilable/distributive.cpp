@@ -1,4 +1,4 @@
-/* Procedural programming has some parallels with algebra / arithmetic.
+	/* Procedural programming has some parallels with algebra / arithmetic.
  * In particular, if you think of an if/else as addition (+) and think
  * of a sequence of statements as multiplication (*), then some things
  * like the distributive property (that is, a(b+c) = ab+ac) make sense.

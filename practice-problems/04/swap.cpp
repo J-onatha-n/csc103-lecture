@@ -10,6 +10,12 @@ using std::cout;
 
 int main()
 {
+ int x,y;
+ cin >> x >> y;
+ x += y;
+ y = x-y;
+ x = x-y;
+ cout << "x: " << x << " y: " << y << "\n";
 	/* TODO: write a little test here to make sure your function works. */
 	return 0;
 }

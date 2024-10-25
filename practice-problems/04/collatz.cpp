@@ -21,8 +21,18 @@ using std::cout;
 
 int main()
 {
+ int n, count = 0;
+ cin>>n;
+ while(n!=1){
+  if(n%2==0) n=n/2;
+  else n=3*n+1;
+  count++;
+  }
+  cout << count << "\n";
+ //if(n==1) break;
+
 	/* your answer goes here... */
 	return 0;
-}
+ }
 
 // vim:foldlevel=2

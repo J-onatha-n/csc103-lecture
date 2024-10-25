@@ -14,8 +14,18 @@ using std::vector;
 
 int main()
 {
+ vector<int> V = {1,2,3,4,5,6,7,8,9,10};
 	/* TODO: call your function, make sure it works... */
 	return 0;
 }
 
+int search(int x, vector<int> V){
+ size_t S = V.size();
+ for(size_t i = 0; i<S; i++){
+  if(V[S/2]>x) {
+   i = S/2;}
+  if(V[S/2]<x){
+
+   }
+ }
 // vim:foldlevel=2

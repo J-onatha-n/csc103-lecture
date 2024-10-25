@@ -13,11 +13,20 @@ using std::vector;
 /* your answer goes here: */
 void pop_front(vector<int>& V)
 {
+ for(size_t i = 0; i<V.size(); i++){
+  V[i] = V[i+1];
+  }
+  V.pop_back();
+ for(size_t i = 0; i<V.size(); i++){
+  cout<<V[i]<<" \n";
+  }
 }
 
 int main()
 {
 	/* TODO: call your function, make sure it works... */
+ vector<int> V = {1,2,3,4};
+ pop_front(V);
 	return 0;
 }
 

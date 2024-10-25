@@ -9,11 +9,27 @@ using std::cout;
 using std::vector;
 
 /* your answer goes here... */
+bool search(int x,vector<int> V);
 
 int main()
 {
 	/* TODO: call your function, make sure it works... */
+	int x;
+	cin >> x;
+	vector<int> V = {2,4,6,8,103};
+	int look = search(x,V);
+	cout << look << "\n";
 	return 0;
 }
 
+bool search(int x,vector<int> V) {
+	size_t size = V.size();
+	bool isMath = false;
+	for(size_t i = 0; i<size; i++){
+		if(x == V[i]){
+			isMath = true;
+			}
+		}
+		return isMath;
+	}
 // vim:foldlevel=2

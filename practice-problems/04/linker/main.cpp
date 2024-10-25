@@ -13,9 +13,9 @@ using std::cin;
 using std::cout;
 
 int max(int a, int b, int c);
-void swap(int a, int b);
+void swap(int& a, int& b);
 
-int Main()
+int main()
 {
 	int x,y,z;
 	cin >> x >> y >> z;

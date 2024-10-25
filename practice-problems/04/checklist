@@ -1,9 +1,9 @@
-[ ] max.cpp
-[ ] swap.cpp
-[ ] simplify.cpp
-[ ] collatz.cpp
-[ ] prototypes.cpp
-[ ] linker/
+[+] max.cpp
+[+] swap.cpp
+[+] simplify.cpp
+[+] collatz.cpp
+[+] prototypes.cpp
+[+] linker/
 [ ] uncompilable/distributive.cpp
 [ ] uncompilable/dead-code.cpp
 [ ] uncompilable/if-else-reorder.cpp
