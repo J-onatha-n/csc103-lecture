@@ -14,11 +14,37 @@ using std::cout;
 using std::vector;
 
 /* your answer goes here... */
-
+void merge(vector<int> V1, vector<int> V2);
 int main()
 {
+ vector<int> V1 = {10,100,300,3000};
+ vector<int> V2 = {22,22,44,64};
+ merge(V1,V2);
 	/* TODO: call your function, make sure it works... */
 	return 0;
 }
+
+void merge(vector<int> V1, vector<int> V2){
+ vector<int> N;
+ size_t total = V1.size() + V2.size();
+ cout << total << "\n";
+ int i = 0, j = 0;
+ for(int k = 0; k < total; k++) {
+  if(V1[i]<=V2[j] && i < V1.size()){
+   N.push_back(V1[i]);
+   i++;
+   continue;
+   }
+   if(V2[j]<=V1[i] || j < V2.size()){
+    N.push_back(V2[j]);
+    j++;
+    continue;
+   }
+  }
+  for(int k = 0; k < N.size(); k++){
+   cout << N[k] << " ";
+   }
+   cout << "\n";
+ }
 
 // vim:foldlevel=2
